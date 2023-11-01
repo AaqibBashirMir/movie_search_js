@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.edit{
+    border: 1px black solid;
+    height: 600px;
+    width: 300px;
+    background: linear-gradient(lightyellow,lightblue);
+    box-shadow: 0 0 5px rgb(109, 128, 0);
+}
+#form{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+body{
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    background-color: rgb(0, 0, 0);
+     
+}
+.head{
+    height: 100px;
+    background-color: rgb(225, 0, 255);
+    border: 2px solid ;
+    box-shadow: 0 0 10px rgb(212, 0, 255);
+}
+span{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+#input{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: beige;
+    font-size: large;
+}
+#movie_title{
+    margin: 20px;
+    padding: 20px;
+}
