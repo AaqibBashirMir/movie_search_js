@@ -13,6 +13,8 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .edit{
+    display: flex;
+    flex-direction: column;
     margin: 40px;
     border: 1px black solid;
     height: 550px;
